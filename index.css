@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://media.istockphoto.com/vectors/abstract-background-of-triangles-vector-id969159730?k=20&m=969159730&s=612x612&w=0&h=pUSS-MfcKWQOTb_DawT1-bhxEmv4er2H06ut3EuOFAM=");
+    background-size: cover;
+    background-position: center;
+}
+.contenedor{
+    background-color: #dfdfee;
+    width: 1000px;
+    height: 500px;
+    padding-top: 80px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 10px 0px #333 inset;
+}
+.caja{
+    width: 848px;
+    height: 440px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap:1em ;
+    margin-right: auto;
+    margin-left: auto;
+}
+.target1{
+    background-color:#02b689;
+    color: whitesmoke;
+    grid-column: 1/3;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px grey;
+}
+.target2{
+    background-color:#79807e;
+    color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px grey;
+}
+.target3{
+    background-color:#edfcf8;
+    grid-column: 1/2;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px grey;
+}
+.target4{
+    background-color:#052019;
+    color: whitesmoke;
+    grid-column: 2/4;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px grey;
+}
+.target5{
+    background-color:#edfcf8;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px grey;
+}
+.cabeza{
+    display: flex;
+    margin: 8px;
+}
+.cabeza div{
+    margin-left: 13px;
+}
+.cabeza h1{
+    font-size: 16px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.cabeza h2{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contenido{
+    width: 100%;
+    height: 100%;
+}
+.contenido h5{
+    font-size: 14px;
+    width: 100%;
+    padding: 5px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    word-spacing: 4px;
+}.contenido p{
+    font-size: 12px;
+    padding-left: 8px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 14px;
+}
+
+@media (min-width:430px) and (max-width:640px){
+    body{
+        background-image: url("https://media.istockphoto.com/vectors/abstract-geometric-black-and-white-glitch-background-vector-id1168965356?k=20&m=1168965356&s=612x612&w=0&h=e6zcfJ9QGRz_c49gxV2Kswt7MrDvFii9offD9JTwqTM=");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 205vh;
+    }
+        .contenedor{
+            background-color: #4c6863;
+            width: 400px;
+            padding-top: 40px;
+            margin-top: 10px;
+            margin-right: auto;
+            margin-left: auto;
+            box-shadow: 0px 0px 10px 0px rgb(255, 255, 255) inset;
+            height: 100%;
+        }
+        .caja{
+            display: grid;
+            grid-template-columns: 320px;
+            gap:2em ;
+            margin-left: 20px;
+            margin-right: auto;
+            margin-left: 40px;
+            width: 100%;
+        }
+        .target1{
+            background-color:#02b689;
+            color: whitesmoke;
+            grid-column: 1/-1;
+            border-radius: 8px;
+            box-shadow: 10px 10px 5px #848f8c;
+            padding-bottom: 10px;
+        }
+        .target2{
+            background-color:#79807e;
+            color: whitesmoke;
+            border-radius: 8px;
+            grid-column: 1/-1;
+            box-shadow: 10px 10px 5px #848f8c;
+            padding-bottom: 10px;
+        }
+        .target3{
+            background-color:#edfcf8;
+            grid-column: 1/-1;
+            border-radius: 8px;
+            box-shadow: 10px 10px 5px #848f8c;
+            padding-bottom: 10px;
+        }
+        .target4{
+            background-color:#052019;
+            color: whitesmoke;
+            grid-column: 1/-1;
+            border-radius: 8px;
+            box-shadow: 10px 10px 5px #848f8c;
+            padding-bottom: 10px;
+        }
+        .target5{
+            background-color:#edfcf8;
+            grid-column: 1/-1;
+            border-radius: 8px;
+            box-shadow: 10px 10px 5px #848f8c;
+            padding-bottom: 10px;
+        }
+}
