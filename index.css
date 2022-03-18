@@ -91,7 +91,7 @@ body{
     line-height: 14px;
 }
 
-@media (min-width:430px) and (max-width:640px){
+@media (min-width:360px) and (max-width:640px){
     body{
         background-image: url("https://media.istockphoto.com/vectors/abstract-geometric-black-and-white-glitch-background-vector-id1168965356?k=20&m=1168965356&s=612x612&w=0&h=e6zcfJ9QGRz_c49gxV2Kswt7MrDvFii9offD9JTwqTM=");
         background-size: cover;

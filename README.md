@@ -11,7 +11,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/vanee17/Testimonial_Grid
-- Live site URL:
+- Live site URL: https://vanee17.github.io/Testimonial_Grid/
 
 ### My process
 
